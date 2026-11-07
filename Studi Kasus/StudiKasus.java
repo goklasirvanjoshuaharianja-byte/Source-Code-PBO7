@@ -24,7 +24,7 @@ class Mahasiswa {
     void tampilkanDataMahasiswa(MataKuliah[] mataKuliah) {
         System.out.println("Nama          : " + nama);
         System.out.println("NIM           : " + nim);
-        System.out.println("Jadwal Kuliah : ");
+        System.out.println("Mata Kuliah   : ");
        for(MataKuliah mk : mataKuliah) {
         mk.tampilkanMataKuliah();
        }
